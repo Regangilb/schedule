@@ -38,4 +38,3 @@ function mapStateToProps(state) {
 
 export default connect(mapStateToProps)(Schedule);
 
-export default Schedule;
