@@ -1,4 +1,3 @@
-
 import React, { Component } from 'react';
 
 class Arrow extends Component {
@@ -25,7 +24,7 @@ class Arrow extends Component {
     render() {
         this.id = `arrow-${this.props.id}`
         return (
-            <a id={this.id} onClick={() => this.toggleArrow()}className={`${this.props.className} arrow`}></a>
+            <a id={this.id} onClick={() => this.toggleArrow()} className={`${this.props.className} arrow`}></a>
         )
     }
 }
